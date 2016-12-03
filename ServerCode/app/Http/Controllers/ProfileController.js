@@ -52,6 +52,12 @@ class ProfileController {
 
 	    yield response.send({ message: profileEditMessage })
 	}
+
+	* getProfile (request, response) {
+		const inEmail = request.input('email')
+		const user = yield Database.select('*').table('users').where('email', inEmail)
+		yield response.send({ user: user[0] })
+	}
 }
 
 module.exports = ProfileController
