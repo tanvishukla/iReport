@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/activity_my_report"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--tools:context="com.example.tanvi.ireport.Activity.MyReportActivity">-->
+
+
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/main_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewReports"/>
+
+<android.support.design.widget.FloatingActionButton
+
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:src="@drawable/mapview"
+    android:layout_gravity ="bottom|right"
+    android:layout_margin="16dp"
+    app:layout_anchor="@id/listViewReports"
+    app:layout_anchorGravity="bottom|right|end"
+    />
+<!--</LinearLayout>-->
+</android.support.design.widget.CoordinatorLayout>

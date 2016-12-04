@@ -10,6 +10,14 @@ public class Report_Item {
     public String dateTime;
     int imageURL;
 
+
+    public Report_Item(String name, String status, String dateTime, int imageURL) {
+        this.name = name;
+        this.status = status;
+        this.dateTime = dateTime;
+        this.imageURL = imageURL;
+    }
+
     public String getName() {
         return name;
     }
