@@ -54,8 +54,8 @@ public class MyReportActivity extends AppCompatActivity implements AdapterView.O
 
                 Toast.makeText(MyReportActivity.this,"Map view is selected !!", Toast.LENGTH_LONG).show();
 
-                Intent intent = new Intent(MyReportActivity.this, MyReportMapActivity.class);
-                startActivity(intent);
+//                Intent intent = new Intent(MyReportActivity.this, MyReportMapActivity.class);
+//                startActivity(intent);
             }
         });
 
