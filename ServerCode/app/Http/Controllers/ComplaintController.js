@@ -21,7 +21,7 @@ class ComplaintController {
 		const inState = request.input('state')
 		const inEmail = request.input('email')
 		const inReportedBy = request.input('reportedby')
-		const inImages = request.input('reportedby')
+		const inImages = request.input('image')
 		const complaint = new Complaint()
 		complaint.description = inDescription
 		complaint.priority = inPriority
