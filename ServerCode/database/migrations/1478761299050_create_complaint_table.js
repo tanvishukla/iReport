@@ -21,7 +21,6 @@ class ComplaintTableSchema extends Schema {
       table.string('email', 60)
       table.string('images', 900000)
       table.string('reported_by', 60)
-
       table.timestamps()
     })
   }
@@ -29,7 +28,6 @@ class ComplaintTableSchema extends Schema {
   down () {
     this.drop('complaints')
   }
-
 }
 
 module.exports = ComplaintTableSchema
