@@ -16,3 +16,8 @@
 */
 
 const Route = use('Route')
+
+Route.post('/user', 'ProfileController.newUser')
+Route.post('/edituser', 'ProfileController.profileEdit')
+Route.post('/getuser', 'ProfileController.getProfile')
+Route.post('/changenotifications', 'ProfileController.changeNotificationSettings')
