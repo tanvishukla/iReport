@@ -16,3 +16,8 @@
 */
 
 const Route = use('Route')
+
+Route.post('/registercomplaint','ComplaintController.register')
+Route.get('/getcomplaints','ComplaintController.getComplaints')
+Route.get('/getcomplaints/:id','ComplaintController.getSingleComplaint')
+Route.post('/getcomplaints','ComplaintController.getComplaintsById')
