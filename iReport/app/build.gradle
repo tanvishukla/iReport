@@ -42,6 +42,7 @@ dependencies {
     compile 'com.facebook.android:facebook-android-sdk:[4,5)'
     //design support library
     compile "com.android.support:design:${supportLibVersion}"
+    compile 'com.google.android.gms:play-services-maps:9.8.0'
 }
 
 // Add google services plugin to the bottom of the file
