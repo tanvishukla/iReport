@@ -1,0 +1,208 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title></title>
+      <style type="text/css">
+      .ReadMsgBody {
+          width: 100%;
+      }
+      .ExternalClass {
+        width:100%;
+		line-height:100%;
+      }
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+        line-height: 100%;
+      }
+      body{
+          width: 100% !important;
+          margin:0; 
+          padding:0; 
+          -webkit-font-smoothing: antialiased;
+      }
+      html {
+          width: 100%;
+      }       
+      p, a, li,div, td { 
+          -webkit-text-size-adjust:none; 
+      }
+      p {
+          margin:0px; 
+          padding:0px;
+      }
+      img {
+          outline:none; 
+          text-decoration:none;
+          border:none; 
+          -ms-interpolation-mode: bicubic;
+      } 
+      table{
+          border-collapse:collapse; 
+          mso-table-lspace:0pt; 
+          mso-table-rspace:0pt;
+          font-size: 14px;
+          border: 0;
+      }
+      table td {
+          border-collapse: collapse;
+      }
+      .backgroundTable {
+          margin:0; 
+          padding:0; 
+          width:100%!important; 
+          line-height:100% !important;
+      }
+          .threat-name{
+              border-left:1px solid #8c8d8e;border-right:1px solid #8c8d8e;border-bottom:1px solid #8c8d8e;font-family: Helvetica, Arial, sans-serif; color: #5a5a5a; font-weight: normal; font-size: 14px; mso-line-height-rule: exactly; line-height: 18px; text-align: left; height: auto !important; width: 60% !important; border-collapse: collapse; padding:5px 10px 5px 15px;
+          }
+          .threat-count{
+              border-right:1px solid #8c8d8e;border-bottom:1px solid #8c8d8e;font-family: Helvetica, Arial, sans-serif; color: #5a5a5a; font-weight: normal; font-size: 14px; mso-line-height-rule: exactly; line-height: 18px; text-align: left; height: auto !important; width: 40% !important; border-collapse: collapse; padding:5px 10px 5px 15px;
+          }
+     /*IPAD STYLES*/
+    @media only screen and (max-width: 640px) {
+		table[class=devicewidth] {
+			width: 440px !important;
+			height: auto!important;
+		}
+		table[class=devicewidthinner]{
+			width: 100%!important;
+			height: auto!important;
+		}
+		td[class=devicewidthinner]{
+			padding:0px 20px!important;
+		}
+		td[class=full-width-image]{
+			width: 440px!important;
+			height: auto!important;
+		}
+		img[class=full-width-image]{
+			width: 440px!important;
+			height: auto!important;
+		}
+    }
+    /*IPHONE STYLES*/
+    @media only screen and (max-width: 479px) {
+		table[class=devicewidth]{
+			width: 280px !important;
+			height: auto!important;			
+		}
+		table[class=devicewidthinner]{
+			width: 100%!important;
+			height: auto!important;
+		}
+		td[class=devicewidthinner]{
+			padding:0px 10px!important;
+		}
+		td[class=full-width-image]{
+			width: 280px!important;
+			height: auto!important;
+		}
+		img[class=full-width-image]{
+			width:280px!important;
+			height: auto!important;
+		}
+    }
+      </style>
+</head>
+<body yahoo="fix" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#595b5e" style="background:#595b5e;">
+    <!-- Wrapper -->
+    <table width="100%" bgcolor="#595b5e" border="0" cellpadding="0" cellspacing="0"  style="background:#595b5e;width: 100%;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;"  class="backgroundTable">
+		<tr><td height="30" style="font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+		<tr>
+			<td align="center">
+				<table width="600" bgcolor="#ffffff" align="center" border="0" cellpadding="0" cellspacing="0"  style="background:#ffffff;" class="devicewidth">
+					<tr>
+						<td align="center" class="full-width-image">
+							<img src="https://raw.githubusercontent.com/aniketkhaire/iReport/master/emailHeader.png" width="600" border="0" height="121" alt="logo" style="max-width: 600px;border:0;padding:0;margin:0;outline:0;display:block;" class="full-width-image"/>
+						</td>
+					</tr>					
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table width="600" bgcolor="#ffffff" align="center" border="0" cellpadding="0" cellspacing="0" style="background:#ffffff;" class="devicewidth">
+					<tr>
+						<td align="center" style="padding:0px 40px;" class="devicewidthinner">
+							<table width="100%" bgcolor="#ffffff" align="center" border="0" cellpadding="0" cellspacing="0" style="background:#ffffff;"  class="devicewidthinner" >
+								<tr><td height="30" style="font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+								<tr>
+									<td align="center" style="font-family:  Helvetica, Arial, sans-serif; color: #5a5a5a; font-weight: normal; font-size: 14px; mso-line-height-rule: exactly; line-height:18px; text-align: left;border-collapse: collapse;">
+										Dear {{ templateValues.firstname }} {{ templateValues.lastname }},
+										<br/><br/>
+										{{ templateValues.bodyline }}
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" style="padding:0px 40px;" class="devicewidthinner">
+							<table width="100%" bgcolor="#ffffff" align="center" border="0" cellpadding="0" cellspacing="0" style="background:#ffffff;"  class="devicewidthinner" >
+								<tr><td height="25" style="font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+								<tr><td height="20" style="font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+								<tr>
+									<td align="center">
+										<table width="488" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" >
+											<tr style="background:#fffff0;">
+												<th align="left" valign="top" style="border:1px solid #8c8d8e;font-family: Helvetica, Arial, sans-serif; color: #000000; font-weight: normal; font-size: 14px; mso-line-height-rule: exactly; line-height: 18px; text-align: left; height: auto !important; width: 60% !important; border-collapse: collapse; padding:5px 10px 5px 15px;">
+													Complaint Number
+												</th>
+												<th align="left" valign="top" style="border-top:1px solid #8c8d8e;border-right:1px solid #8c8d8e;border-bottom:1px solid #8c8d8e;font-family: Helvetica, Arial, sans-serif; color: #000000; font-weight: normal; font-size: 14px; mso-line-height-rule: exactly; line-height: 18px; text-align: left; height: auto !important; width: 40% !important; border-collapse: collapse; padding:5px 10px 5px 15px;">
+													{{ templateValues.complaintid }}
+												</th>
+											</tr>
+                                            <tr style="background:#004065;">
+												<td align="left" valign="top" style="border:1px solid #8c8d8e;font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-weight: normal; font-size: 14px; mso-line-height-rule: exactly; line-height: 18px; text-align: left; height: auto !important; width: 60% !important; border-collapse: collapse; padding:5px 10px 5px 15px;">
+													Complaint Status
+												</td>
+												<td align="left" valign="top" style="border-top:1px solid #8c8d8e;border-right:1px solid #8c8d8e;border-bottom:1px solid #8c8d8e;font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-weight: normal; font-size: 14px; mso-line-height-rule: exactly; line-height: 18px; text-align: left; height: auto !important; width: 40% !important; border-collapse: collapse; padding:5px 10px 5px 15px;">
+													{{ templateValues.complaintstatus }}
+												</td>
+											</tr>
+                                            <tr style="background:#fffff0;">
+												<td align="left" valign="top" style="border:1px solid #8c8d8e;font-family: Helvetica, Arial, sans-serif; color: #000000; font-weight: normal; font-size: 14px; mso-line-height-rule: exactly; line-height: 18px; text-align: left; height: auto !important; width: 60% !important; border-collapse: collapse; padding:5px 10px 5px 15px;">
+													Complaint Description
+												</td>
+												<td align="left" valign="top" style="border-top:1px solid #8c8d8e;border-right:1px solid #8c8d8e;border-bottom:1px solid #8c8d8e;font-family: Helvetica, Arial, sans-serif; color: #000000; font-weight: normal; font-size: 14px; mso-line-height-rule: exactly; line-height: 18px; text-align: left; height: auto !important; width: 40% !important; border-collapse: collapse; padding:5px 10px 5px 15px;">
+													{{ templateValues.description }}
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr><td height="20" style="font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+							</table>
+						</td>
+					</tr>
+					<tr><td height="40" style="font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table width="600" bgcolor="#ffffff" align="center" border="0" cellpadding="0" cellspacing="0"  style="background:#ffffff;" class="devicewidth">
+					<tr>
+						<td align="center" class="full-width-image">
+							<img src="https://raw.githubusercontent.com/aniketkhaire/iReport/master/emailFooter.png" width="600" border="0" height="117" alt="logo" style="max-width: 600px;border:0;padding:0;margin:0;outline:0;display:block;" class="full-width-image"/>
+						</td>
+					</tr>					
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<table width="600" bgcolor="#595b5e" align="center" border="0" cellpadding="0" cellspacing="0"  style="background:#595b5e;" class="devicewidth">
+					<tr><td height="15" style="font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+					<tr>
+						<td align="center" style="font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-weight: normal; font-size: 11px; mso-line-height-rule: exactly; line-height:16px; text-align: left;border-collapse: collapse;">										
+						This email message was sent by iReport, One Washington Square, San Jose, CA<br/>
+						</td>
+					</tr>					
+				</table>
+			</td>
+		</tr>
+		<tr><td height="30" style="font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+	</table>
+</body>
+</html>
